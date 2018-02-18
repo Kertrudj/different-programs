@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> <!--initial ja maximum hoiavad ära zoomi-->
+    <title>Laevade pommitamine</title>
+    <link rel="stylesheet" href="Style/kujundus.css" media="screen">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+ 
+<body>
+    <div class="p2is">
+        <header>
+            <h1>Battleships</h1> 
+        </header>
+    </div>
+    <div class="inputs">
+        <a>Vali laua suurus:</a>
+        <select id="boardselect">
+            <option value=""></option>
+            <option value="3">3x3</option>
+            <option value="4">4x4</option>
+            <option value="5">5x5</option>
+            <option value="6">6x6</option>
+            <option value="7">7x7</option>
+            <option value="8">8x8</option>
+            <option value="9">9x9</option>
+            <option value="10">10x10</option>
+        </select><p>
+        <a>Vali laevade arv: </a>
+        <select id="shipselect">
+            <option value=""></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select><p>
+        <button id="nupp">Uus mäng</button>
+    </div>
+    <div id="mangutabelid">
+        <div id="board1"></div>
+        <div id="board2"></div>
+    </div>
+    <div>
+        <h2 id="tulemus"></h2>
+    </div>
+    <div id="tulemustabel">
+        <table id="tulemustabeliSisu">
+            <tr>
+                <th>Mäng</th>
+                <th>Maatriks</th>
+                <th>Laevade arv</th>
+                <th>Mängija pommitamised</th>
+                <th>Arvuti pommitamised</th>
+                <th>Mängu aeg</th>
+            </tr>
+        </table>
+    </div>
+    <script src="Scripts/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+@media only screen{
+    body{
+        overflow-x: hidden; /*ei saa külgedele scrollida*/
+    }
+}
+header h1{
+    font-family: sans-serif;
+    color: dimgray;
+    text-align: center;
+}
+
+body{
+    background-color: #e8e8e8;
+}
+
+input{
+    outline: none;
+}
+
+.inputs{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.inputs select{
+    padding: 5px; /*Teeb laiemaks*/
+    font-size: 15px;
+    background: none;
+    border-bottom: 1px lightgray solid;
+    outline: none;
+}
+
+#board1 table{
+    background-color: white;
+    float: left;
+}
+
+#board2 table{
+    background-color: white;
+    float: right;
+    cursor: pointer;
+}
+
+#board1 table, th, tr, td{
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+#board1 th, td, tr{
+    width: 50px;
+    height: 50px;
+}
+
+#board2 table, th, tr, td{
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+#board2 th, td, tr{
+    width: 50px;
+    height: 50px;
+}
+
+#tulemus{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#tulemustabel table, th, td, tr{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: sans-serif;
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+
